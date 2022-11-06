@@ -1,3 +1,28 @@
-<p>
-  vehicle-list works!
-</p>
+<h1>
+  TuSegundazo.com
+</h1>
+<img src="../../../assets/banner.jpg" width="100%" height="auto">
+<div class="col-8">
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Marca</th>
+        <th scope="col">Línea</th>
+        <th scope="col">Modelo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let vehicle of vehicles">
+        <th scope="row">{{vehicle.id}}</th>
+        <td>{{vehicle.marca}}</td>
+        <td>{{vehicle.linea}}</td>
+        <td>{{vehicle.modelo}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <p *ngFor="let entries of totalVehicles.entries()">
+    Total {{entries[0]}}: {{entries[1]}}
+  </p>
+</div>
+<p id="footer">Contact us: +57 3102105253 - info@tusegundazo.com - @tusegundazo</p>

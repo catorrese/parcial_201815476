@@ -1,0 +1,24 @@
+h1 {
+  font-family: Jaldi;
+  font-weight: bolder;
+  opacity: 1;
+  margin-bottom: 0.5em;
+}
+
+img {
+  padding: 1.5em 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 1.5em;
+}
+
+p {
+  margin: 0;
+}
+
+#footer {
+  margin-top: 3.5em;
+  font-family: Inter;
+  font-weight: Regular;
+  text-align: center;
+}
